@@ -23,7 +23,7 @@ function draw() {
 
 function spinnerRect(x, y) {
   push();
-  fill(100);
+  fill(mouseX,mouseY,30);
   translate(x, y);
   rotate(radians(frameCount));
   rect(0, 0, 70, 10);
