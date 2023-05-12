@@ -17,7 +17,7 @@ function draw() {
     }
   }
   blendMode(ADD);
-  image(img, width / 2, height / 2, 400, 400);
+  image(img, width / 2, height / 2, windowWidth, windowHeight);
   blendMode(BLEND);
 }
 
