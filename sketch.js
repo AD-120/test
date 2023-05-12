@@ -3,7 +3,7 @@ function preload() {
   img = loadImage("selleck.png");
 }
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
   imageMode(CENTER);
 }
